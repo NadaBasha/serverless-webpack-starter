@@ -10,8 +10,8 @@ phases:
       - npm run build
   post_build:
     commands:
-      - cd .serverless
+      - move ./.serverless/serverless-webpack-starter.zip ./serverless-webpack-starter.zip
 
 artifacts:
   files:   
-    serverless-webpack-starter.zip
+    - serverless-webpack-starter.zip
