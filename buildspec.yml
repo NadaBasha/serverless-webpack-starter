@@ -11,7 +11,7 @@ phases:
   post_build:
     commands:
       - echo $CODEBUILD_SRC_DIR
-      - move ./.serverless/serverless-webpack-starter.zip ./serverless-webpack-starter.zip
+      - cp ./.serverless/serverless-webpack-starter.zip .
 
 artifacts:
   files:   
