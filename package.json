@@ -7,7 +7,6 @@
   "author": "Kotaro Sugawara <kotarella1110@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cp env.example.yml env.yml",
     "precommit": "lint-staged",
     "start": "sls offline",
     "build": "sls webpack",
