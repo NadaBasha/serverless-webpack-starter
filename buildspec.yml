@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - npm run build
-  post-build:
+  post_build:
     commands:
       - cd .webpack/service/src/functions
 
