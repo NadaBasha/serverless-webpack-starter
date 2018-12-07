@@ -7,7 +7,7 @@ export const hello = async (event, context, callback) => {
         'Access-Control-Allow-Credentials': true, // Required for cookies, authorization headers with HTTPS
       },
       body: JSON.stringify({
-        message: `Go Serverless Webpack (Babel) v1.0! Your function executed successfully! ${
+        message: `Go Serverless Webpack (Babel) v1.0! Your function executed successfully23456! ${
           process.env.NODE_ENV
         } stage!`,
         input: event,
