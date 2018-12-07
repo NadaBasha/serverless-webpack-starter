@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+    - dep-test:
+        Type: AWS::Lambda::Function
+        Properties:
+            Name: "dep-test"
+            Alias: "dev"
+            CurrentVersion: "1"
+            TargetVersion: "1"
