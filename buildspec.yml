@@ -11,8 +11,9 @@ phases:
   post_build:
     commands:
       - echo $CODEBUILD_SRC_DIR
-      - cp ./.serverless/serverless-webpack-starter.zip .
+      - cp ./.serverless/serverless-webpack-starter.zip .      
 
 artifacts:
   files:   
+    - appspec.yml
     - serverless-webpack-starter.zip
